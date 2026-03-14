@@ -10,7 +10,7 @@ class Veil < Formula
   depends_on "node"
 
   def install
-    system "npm", "install", "-g", "--prefix", prefix, "."
+    system "npm", "install", "-g", "--prefix", prefix, "package"
   end
 
   test do
