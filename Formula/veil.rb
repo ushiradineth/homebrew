@@ -2,9 +2,9 @@
 class Veil < Formula
   desc "Fast CLI and skill for local code retrieval and agent context workflows"
   homepage "https://github.com/ushiradineth/veil"
-  url "https://registry.npmjs.org/@ushiradineth/veil/-/veil-0.4.0.tgz"
-  sha256 "923e3a7a09d0592fae0c409b4273a8a56d884fa01bc2342442d7c9996115478e"
-  version "0.4.0"
+  url "https://registry.npmjs.org/@ushiradineth/veil/-/veil-0.4.1.tgz"
+  sha256 "b73c5f59ae7f602e20caa95fd694c7df73e80364b60c347d53a808c5e60584b3"
+  version "0.4.1"
   license "MIT"
 
   depends_on "node"
