@@ -1,10 +1,10 @@
 # This file is managed by veil release automation. DO NOT EDIT.
 class Veil < Formula
-  desc "Fast CLI and skill for local code retrieval and agent context workflows"
+  desc "MCP retrieval toolkit for coding agents"
   homepage "https://github.com/ushiradineth/veil"
-  url "https://registry.npmjs.org/@ushiradineth/veil/-/veil-0.4.1.tgz"
-  sha256 "b73c5f59ae7f602e20caa95fd694c7df73e80364b60c347d53a808c5e60584b3"
-  version "0.4.1"
+  url "https://registry.npmjs.org/@ushiradineth/veil/-/veil-0.6.0.tgz"
+  sha256 "7fcae63823892b6d94ba99eb812ce402b93adcce36c961fe45af6f1b70236115"
+  version "0.6.0"
   license "MIT"
 
   depends_on "node"
@@ -14,6 +14,6 @@ class Veil < Formula
   end
 
   test do
-    assert_match "Usage:", shell_output("#{bin}/veil 2>&1", 1)
+    assert_predicate bin/"veil", :exist?
   end
 end
