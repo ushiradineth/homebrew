@@ -2,9 +2,9 @@
 class Veil < Formula
   desc "MCP retrieval toolkit for coding agents"
   homepage "https://github.com/ushiradineth/veil"
-  url "https://registry.npmjs.org/@ushiradineth/veil/-/veil-0.7.1.tgz"
-  sha256 "6d1b5186fb0ddfefe01f514ca7ab58c7cf5620ede10dab4f2f43b170f978a80c"
-  version "0.7.1"
+  url "https://registry.npmjs.org/@ushiradineth/veil/-/veil-0.7.2.tgz"
+  sha256 "fd911a69f8ab31d7e24fea57da5b1c7c6d85d3f79431c0379dce7721f1782015"
+  version "0.7.2"
   license "MIT"
 
   depends_on "node"
