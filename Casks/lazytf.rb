@@ -3,7 +3,7 @@ cask "lazytf" do
   name "lazytf"
   desc "Terminal UI for reviewing Terraform plans"
   homepage "https://github.com/ushiradineth/lazytf"
-  version "0.6.3"
+  version "0.7.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "lazytf" do
   on_macos do
     on_intel do
       url "https://github.com/ushiradineth/lazytf/releases/download/v#{version}/lazytf_#{version}_darwin_x86_64.tar.gz"
-      sha256 "265a6ae50231b4caf1f9f997b8391d8f711d2ab0160798be1f9337a05c2e1b61"
+      sha256 "fc9f6a4877051840d6f8da7e7591379869383096489cdf2892152f7bf97c5569"
     end
     on_arm do
       url "https://github.com/ushiradineth/lazytf/releases/download/v#{version}/lazytf_#{version}_darwin_arm64.tar.gz"
-      sha256 "63e6e5b891220d4588b4307452777d7e233234ee4db51ae56bdda3f051db16c8"
+      sha256 "abd8e610eec9b6762aeec2ef517a67254dc939c6bfc29d6ce658f9dbc228c4c2"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/ushiradineth/lazytf/releases/download/v#{version}/lazytf_#{version}_linux_x86_64.tar.gz"
-      sha256 "166c19254d40ba327b44b8e9b8e2e72605a9c225ff04f35c7d8f0e4ba09d8dd6"
+      sha256 "1b6af7737ae338e059c74d6d74aac338aa5a45735499c35133e88e430de85d42"
     end
     on_arm do
       url "https://github.com/ushiradineth/lazytf/releases/download/v#{version}/lazytf_#{version}_linux_arm64.tar.gz"
-      sha256 "f01c10bd8dc7d36c718b880399d3bb52f2481d43a7d62e89eda05018bf761ba1"
+      sha256 "74ecbc00ea5d0e882acddd2ad7859c575f1d22ea747ff96ad3665800d7017dd1"
     end
   end
 
